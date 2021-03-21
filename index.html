@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="nav.css">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="icon" type="image/png" href="img/microphone.ico" />
+	<title>Marvin</title>
+	<style>
+	    section {
+	        min-height: 100vh;
+	        background-image: url(img/microphoneFondo.jpg);
+	        background-size: cover;
+	        background-position: center;
+	        z-index: 1;
+	        position: relative;
+	    }
+	    section::before {
+	        content: '';
+	        position: absolute;
+	        box-sizing: border-box;
+	        left: 0;
+	        top: 0;
+	        right: 0;
+	        bottom: 0;
+	        background-color: #000000;
+	        opacity: 0.3;
+	        z-index: -1;
+	    }
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="nav" id="navbar">
+			<div class="logo" id="logo">
+				<img src="img/microphoneLogo.png" alt="">
+				<h3>Marvin Hernández</h3>
+			</div>
+			<div class="hamburger" id="hamburger">
+				<div id="line1"></div>
+				<div id="line2"></div>
+				<div id="line3"></div>
+			</div>
+			<ul class="nav-links">
+				<li><a href="#" id="home">Home</a></li>
+				<li><a href="#" id="colegas">Colegas</a></li>
+				<li><a href="#" id="quiensoy">Quien Soy</a></li>
+				<li><a href="#" id="live">Live</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="home">
+		<div>
+			<h4>"Haga lo que le dé la gana sin afectar al projimo"</h4>
+		</div>
+		<img src="img/notas.gif" alt="">
+	</section>
+	<section>
+		<div class="perfil">
+			<img loading="lazy" src="img/Perfil3.jpeg" alt="Marvin Hernandez">
+			<div class="perfil-texto">
+				<a href="#">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					Al Aire
+				</a>
+				<p>Marco Vinicio Hernández Sanchez reconocido en el mundo musical ecuatoriano como Marvin Hernández. Mi carrera inicia en el año de 1999 luego de cursar una preparación como Radio Locutor. He trabajado en para radios reconocidas de Quito y Ecuador. Actualmente presto mis servicios para Radio La Poderosa 92.9FM de lunes a viernes de 6pm a 9pm.</p>
+			</div>
+		</div>
+	</section>
+	<section class="fondo_tarjetas">
+		<div class="video">
+			<video loading="lazy" src="img/video.mp4" autoplay muted loop></video>
+		</div>
+		<div class="contenedor">
+			<div class="contenedor_tarjeta">
+					<figure>
+						<img loading="lazy" src="img/sonido.jpg" class="frontal" alt="">
+						<figcaption class="atras">
+							<h2 class="titulo">Sonido y Amplificación profesional.</h2>
+							<hr>
+							<p>Contamos con amplificación profesional, parlantes amplificados, luces roboticas y Radio djs para tu evento.</p>
+						</figcaption>
+					</figure>
+			</div>
+			<div class="contenedor_tarjeta">
+					<figure>
+						<img loading="lazy" src="img/eventos.jpg" class="frontal" alt="">
+						<figcaption class="atras">
+							<h2 class="titulo">Recepción y Servicio de Buffet</h2>
+							<hr>
+							<p>Te ofrecemos el servicio de catering para todo tipo de evento, chefs y meseros profesionales.</p>
+						</figcaption>
+					</figure>
+			</div>
+			<div class="contenedor_tarjeta">
+					<figure>
+						<img loading="lazy" src="img/estudio.jpg" class="frontal" alt="">
+						<figcaption class="atras">
+							<h2 class="titulo">Producción de Audio y Video</h2>
+							<hr>
+							<p>Realización de cuñas radiales y spot televisivos. Venta de musica actualizada.</p>
+						</figcaption>
+					</figure>
+			</div>
+			<h2>Tenemos todo para tu evento.</h2>
+		</div>
+	</section>
+	<section class="periodico">
+		<div class="slider">
+		     <div class="slides">
+		       <!--radio buttons start-->
+		       <input type="radio" name="radio-btn" id="radio1">
+		       <input type="radio" name="radio-btn" id="radio2">
+		       <input type="radio" name="radio-btn" id="radio3">
+		       <input type="radio" name="radio-btn" id="radio4">
+		       <!--radio buttons end-->
+		       <!--slide images start-->
+		       <div class="slide first">
+		         <img loading="lazy" src="img/publicidad.jpg" alt="">
+		       </div>
+		       <div class="slide">
+		         <img loading="lazy" src="img/LogoProtego.jpg" alt="">
+		       </div>
+		       <div loading="lazy" class="slide">
+		         <img src="img/impulsar.jpg" alt="">
+		       </div>
+		       <div loading="lazy" class="slide">
+		         <img src="img/MMShows.jpg" alt="">
+		       </div>
+		       <!--automatic navigation start-->
+		       <div class="navigation-auto">
+		         <div class="auto-btn1"></div>
+		         <div class="auto-btn2"></div>
+		         <div class="auto-btn3"></div>
+		         <div class="auto-btn4"></div>
+		       </div>
+		       <!--automatic navigation end-->
+		     </div>
+		     <!--manual navigation start-->
+		     <div class="navigation-manual">
+		       <label for="radio1" class="manual-btn"></label>
+		       <label for="radio2" class="manual-btn"></label>
+		       <label for="radio3" class="manual-btn"></label>
+		       <label for="radio4" class="manual-btn"></label>
+		     </div>
+		    </div>
+			<!--Image Slider End-->
+	</section>
+	<footer class="conten-footer">
+		<h2>Contactos</h2>
+		<div class="redes-sociales">
+			<div class="contenedor-icono">
+				<a href="https://instagram.com/marvin1hernandez23?igshid=17ghs6orfn1no" target="_blank" class="instagram">
+					<i class='bx bxl-instagram'></i>
+				</a>
+			</div>
+			<div class="contenedor-icono">
+				<a href="wa.link/6wvxta" target="_blank" class="whatsapp">
+					<i class='bx bxl-whatsapp'></i>
+				</a>
+			</div>
+			<div class="contenedor-icono">
+				<a href="https://www.youtube.com/channel/UC-H_juyJPl9IzvuB47Q0Wjg/featured" target="_blank" class="youtube">
+					<i class='bx bxl-youtube'></i>
+				</a>
+			</div>
+			<div class="contenedor-icono">
+				<a href="https://es-la.facebook.com/marvin.hernandezsanchez.1/" target="_blank" class="facebook">
+					<i class='bx bxl-facebook'></i>
+				</a>
+			</div>
+		</div>
+		<p>GH Desarrollo 2021</p>
+	</footer>
+	<script type="text/javascript" src="main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
