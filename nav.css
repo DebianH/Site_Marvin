@@ -207,7 +207,6 @@ nav {
   display: flex;
   justify-content: center;
 }
-
 .manual-btn{
   border: 2px solid #fff;
   padding: 5px;
@@ -215,14 +214,13 @@ nav {
   cursor: pointer;
   transition: 1s;
 }
-
 .manual-btn:not(:last-child){
   margin-right: 40px;
 }
 .manual-btn:hover{
   background: #fff;
 }
-#radio1:checked ~ {
+#radio1:checked ~ .first{
   margin-left: 0%;
 }
 #radio2:checked ~ .first{
