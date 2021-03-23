@@ -222,7 +222,7 @@ nav {
 .manual-btn:hover{
   background: #fff;
 }
-#radio1:checked ~ .first{
+#radio1:checked ~ {
   margin-left: 0%;
 }
 #radio2:checked ~ .first{
