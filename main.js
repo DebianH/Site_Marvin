@@ -16,7 +16,7 @@ var counter = 1;
     setInterval(function(){
       document.getElementById('radio' + counter).checked = true;
       counter++;
-      if(counter > 4){
+      if(counter > 5){
         counter = 1;
       }
     }, 5000);
@@ -31,3 +31,30 @@ var counter = 1;
 //}
 //animarURL();
 
+//Play Audio
+var audio = document.getElementById('audio');
+var playPauseBTN = document.getElementById('playPauseBTN');
+var count = 0;
+
+function playPause(){
+  if(count == 0){
+    count = 1;
+    audio.play();
+    playPauseBTN.innerHTML = "Pause";
+  }else{
+    count = 0;
+    audio.pause();
+    playPauseBTN.innerHTML = "Play ►";
+  }
+
+}
+
+function stop(){
+  playPause()
+  audio.pause();
+  audio.currentTime = 0;
+  playPauseBTN.innerHTML = "Play ►";
+}
+
+
+      

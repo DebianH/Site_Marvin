@@ -234,6 +234,9 @@ nav {
 #radio4:checked ~ .first{
   margin-left: -60%;
 }
+#radio5:checked ~ .first{
+  margin-left: -80%;
+}
 /*css for automatic navigation*/
 .navigation-auto{
   position: absolute;
@@ -261,6 +264,9 @@ nav {
   background: #fff;
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #fff;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
   background: #fff;
 }
 /*footer */
