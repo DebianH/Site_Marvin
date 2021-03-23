@@ -223,7 +223,7 @@ nav {
   background: #fff;
 }
 #radio1:checked ~ .first{
-  margin-left: 0;
+  margin-left: 0%;
 }
 #radio2:checked ~ .first{
   margin-left: -20%;
@@ -300,12 +300,10 @@ footer .redes-sociales a {
   border-radius: 100px;
   transition: .3s ease all;
 }
-
 footer .redes-sociales .instagram {background: #de1b85;}
 footer .redes-sociales .whatsapp {background: #4AC959;}
 footer .redes-sociales .youtube {background: #c4302b;}
 footer .redes-sociales .facebook {background: #3b5998;}
-
 footer .redes-sociales a i {
   font-size: 35px;
   line-height: 60px;
@@ -327,5 +325,4 @@ footer .contenedor-icono:hover a {
     padding: 0;
     display: none;
   }
-    
 }
