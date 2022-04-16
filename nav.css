@@ -294,7 +294,7 @@ footer .contenedor-icono:hover a {
 	color: #fff;
 	text-align: justify;
 	font-size: 20px;
-	padding: 20px;
+	
 }
 .perfil a {
 	font-family: consolas;
@@ -507,7 +507,7 @@ background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, F
   width: 100%;
 
   text-align: center;
-  font-size: 6em;
+  font-size: 5em;
   color: rgba(255,255,255,0.5);
   font-weight:700;
 
@@ -578,13 +578,18 @@ background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, F
   padding:0;
   margin:0;
 }
+.fondo_tarjetas .card{
+  background:#000;
+}
 
 @media (max-width: 768px){
   .thecontainer .card{
     max-width:300px;
     flex-direction: column;
     height:auto;
+    
   }
+
   .thecontainer .card .imgBx{
     position: relative;
   }
@@ -602,7 +607,7 @@ background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, F
     position: relative;
     width: 100%;
   }
-
+  
   @media (max-width: 768px){
     .carrusel {
       overflow: hidden;
@@ -693,7 +698,7 @@ background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, F
 
 /* From uiverse.io by @adamgiebl */
 .cssbuttons-io-button {
-  background: #A370F0;
+  background: #7f7d82;
   color: white;
   font-family: inherit;
   padding: 0.35em;
@@ -722,7 +727,7 @@ background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, F
   height: 2.2em;
   width: 2.2em;
   border-radius: 0.7em;
-  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #110d16;
   right: 0.3em;
   transition: all 0.3s;
  }
