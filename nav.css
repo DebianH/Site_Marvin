@@ -231,12 +231,7 @@ footer .contenedor-icono:hover a {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .periodico {
-    padding: 0;
-    display: none;
-  }
-}
+
 
 /* Cards */
 .home {
@@ -607,6 +602,11 @@ background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, F
     position: relative;
     width: 100%;
   }
+  /* responsive texto */
+  .perfil .perfil-texto{ 
+    height: 400px;
+    padding-bottom: 20px;
+  }
   
   @media (max-width: 768px){
     .carrusel {
@@ -641,7 +641,7 @@ background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, F
 .carrusel-track {
   display:flex;
   width:calc(250px * 8);
-  animation: scroll 40s linear infinite;
+  animation: scroll 44s linear infinite;
 }
 
 .carrusel-track:hover {
@@ -672,7 +672,6 @@ background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, F
 .carrusel-slide img:hover {
   transform: translateZ(20px)
 }
-
 
 .carrusel::before {
   left: 0;
@@ -739,7 +738,7 @@ background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, F
  .cssbuttons-io-button .icon svg {
   width: 1.1em;
   transition: transform 0.3s;
-  color: #7b52b9;
+  color: #282729;
  }
  
  .cssbuttons-io-button:hover .icon svg {
